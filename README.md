@@ -10,7 +10,7 @@ To download the dataset, install FiftyOne:
 
 `pip install -U fiftyone`
 
-Then pull it from Hugging Face:
+Then pull it from [the Voxel51 Hugging Face Org](https://huggingface.co/datasets/Voxel51/3dvs2026_papers):
 
 ```python
 import fiftyone as fo
