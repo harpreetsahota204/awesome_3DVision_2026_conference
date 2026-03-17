@@ -1,7 +1,8 @@
 # Awesome 3DV 2026 Papers
 
 > **3DV 2026** — 13th International Conference on 3D Vision · Vancouver, March 20–23  
-> 177 accepted papers (22 oral, 155 poster) from 404 submissions (43.8% acceptance rate)
+
+![image/png](3dvpapers.gif)
 
 ## Topics
 
