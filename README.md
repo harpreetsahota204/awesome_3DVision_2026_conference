@@ -4,6 +4,26 @@
 
 ![image/png](3dvpapers.gif)
 
+The dataset above is the accepted papers parsed into FiftyOne format. You can see the [Dataset Card here](DATASET_CARD.md).
+
+To download the dataset, install FiftyOne:
+
+`pip install -U fiftyone`
+
+Then pull it from Hugging Face:
+
+```python
+import fiftyone as fo
+from fiftyone.utils.huggingface import load_from_hub
+
+# Load the dataset
+# Note: other available arguments include 'max_samples', etc
+dataset = load_from_hub("Voxel51/3dvs2026_papers")
+
+# Launch the App
+session = fo.launch_app(dataset)
+```
+
 ## Topics
 
 - [3D Generation and Editing (23)](#3d-generation-and-editing)
